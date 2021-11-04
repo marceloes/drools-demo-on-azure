@@ -12,8 +12,8 @@ Running a demo of Drools on Azure using Container Apps, Container Instances or A
 
 Choose the script you're going to use to run it and run it!
 
-    - Alternatively, you can run all of these commands in [Azure Shell](https://shell.azure.com)
-    - If using Azure Shell, you can comment out the ```az login``` statements
+- Alternatively, you can run all of these commands in [Azure Shell](https://shell.azure.com)
+-  If using Azure Shell, you can comment out the ```az login``` statements
 
 **NOTE: 
 
