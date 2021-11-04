@@ -5,9 +5,10 @@ Running a demo of Drools on Azure using Container Apps, Container Instances or A
 
 - Make sure you have an Azure subscription where you have **Contributor** access. Alternatively, you can easily modify this demo if you only have **Contributor** access to a Resource Group, just change the script to reference that instead of creating a new Resource Group
 - You also need PowerShell 5 minimum on a Windows machine.
-    **A version in Bash is coming soon.**
+    - **A version in Bash is coming soon.**
 - [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli)
-    Alternatively, you can run all of these commands in [Azure Shell](https://shell.azure.com)
+    - Alternatively, you can run all of these commands in [Azure Shell](https://shell.azure.com)
+    - If using Azure Shell, you can comment out the ```az login``` statements
 
 ## Running the demo
 
