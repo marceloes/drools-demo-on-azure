@@ -1,2 +1,19 @@
 # drools-demo-on-azure
 Running a demo of Drools on Azure using Container Apps, Container Instances or App Service
+
+## Pre-requisites
+
+- Make sure you have an Azure subscription where you have **Contributor** access. Alternatively, you can easily modify this demo if you only have **Contributor** access to a Resource Group, just change the script to reference that instead of creating a new Resource Group
+- You also need PowerShell 5 minimum on a Windows machine.
+    **A version in Bash is coming soon.**
+- [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli)
+    Alternatively, you can run all of these commands in [Azure Shell](https://shell.azure.com)
+
+## Running the demo
+
+Choose the script you're going to use to run it.
+
+**NOTE: You may have to carefully choose the region you're deploying to if you're using Azure Container Apps (Preview). This is due to capacity issues on this brand new service in preview.**
+
+
+
